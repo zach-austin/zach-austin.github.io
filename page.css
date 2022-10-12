@@ -1,10 +1,3 @@
-/*
-selector {
-    property: value;
-}
-follows cascading input, so last input for same selector will be used
-*/
-
 body {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -50,40 +43,3 @@ footer {
     height: 50px;
     bottom: 0px;
 }
-
-
-
-/*
-CSS Cheat Sheet
-
-Reference:
-*https://www.w3schools.com/cssref/css_selectors.asp
-*https://css-tricks.com/almanac/
-
-Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
-
-
-.class
-#id
-* - Selects all elements
-element
-element1, element2 - selects element1 and element2
-element1 element2 - selects element2s within element1s
-element1 ~ element2 - selects element2s that are siblings of element1s
-element1 > element2 - selects element2s who's direct parent is an element1
-element1 + element2 - selects element2s who directly follow an element1
-:hover - changes style when hovering over an element (e.g. a:hover)
-:last-child - selects last child of containing element
-:first-child - selects first child of containing element
-!important (not recommended)
-
-
-What seletors win out in the cascade depends on:
--Specificity
-    1) inline styles
-    2) Id selectors
-    3) Class selectors, attributes, pseudo classes
-    4) elements and pseudo elements
--Importance: use of !important
--Source Order: If there are multiple style sheets, the last one read will be used if conflicts
-*/
