@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+a {
+    font-weight: bold;
+}
+
+img {
+    float:left;
+}
+
+a:hover {
+    color: red;
+}
+
+table {
+    border: solid black 1px;
+}
+
+table.registerForm td:nth-of-type(2n-1) {
+    text-align: right;
+    justify-content: right;
+}
+
+td {
+    font-weight: bold;
+}
+
+tr {
+    padding-top: 10px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+}
