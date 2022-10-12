@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="page.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <li><a href="index.html">Home</a></li>
+            </nav>
+        </header>
+        <section>
+            <form>
+                <table class="registerForm">
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" name="first" required></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="last" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="password" minlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td>Birthday</td>
+                        <td><input type="date" name="birthday"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            Male<input type="radio" name="gender" value="Male">
+                            Female<input type="radio" name="gender" value="Female">
+                            Other<input type="radio" name="gender" value="Other">                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Registering for</td>
+                        <td>
+                            Hockey<input type="checkbox" name="hockey">
+                            Soccer<input type="checkbox" name="soccer">
+                            Football<input type="checkbox" name="football">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>How did you hear about us?</td>
+                        <td>
+                            <select name="how" multiple>
+                                <option value="Internet" value="internet">Internet</option>
+                                <option value="Email" value="email">Email</option>
+                                <option value="Other" value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" "Register">
+                <input type="reset" value="Clear"> 
+            </form>
+        </section>
+        <footer>Testing Footer</footer>
+    </body>
+</html>
